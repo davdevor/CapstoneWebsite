@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang=en>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="./navbar.css">
+<meta charset=utf-8>
+<title>Siskin Steel Project</title>
+</head>
+<body>
+<nav id="navbar" class="navbar nav-background navbar-expand-lg navbar-light">
+<h1 class="navbar-brand">Siskin Steel Project</h1>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+                <a class="nav-link btn btn-link" href="./index.html">Home</a><span class="sr-only">(current)</span>
+        </li>
+        <li class="nav-item active">
+                <a class="nav-link btn btn-link" href="./ProjectLog.html">Project Log</a><span class="sr-only">(current)</span>
+        </li>
+</ul>
+</div>
+</nav>
+<div class="containter mt-2">
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-8">
+		<h1>Team Members</h1>
+		<table class="table">
+		  <thead class="thead-dark">
+		    <tr>
+			<th ></th>
+		      <th scope="col">Ben Heil</th>
+		      <th scope="col">David Devore</th>
+		      <th scope="col">Nathan Smith</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+			<th scope="row">Project Role</th>
+			<td>Team Lead</td>
+			<td>Web Lord</td>
+			<td>Lead Programmer</td>
+		    </tr>
+		    <tr>
+			<th scope="row">Email</th>
+			<td>benheil@iu.edu </td>
+			<td>davdevor@iu.edu</td>
+			<td>ns23@iu.edu</td>
+		    </tr>
+		    <tr>
+			<th scope="row">Resume Link</th>
+			<td>
+			<a href="https://drive.google.com/file/d/1HmR39_D535cQqn-AqdCXFhvY-BmqcfOn/view?usp=sharing" target="_blank">Resume</a>
+			</td>
+			<td>
+			<a href="https://docs.google.com/document/d/1xi_0x6UJ4AmzYZ2wei74Xr_KQundPKtN1VSkgQ6oNkE/edit?usp=sharing" target="_blank">Resume</a>
+			</td>
+			<td>
+			<a href="https://docs.google.com/document/d/1rWUhUz9Corg-baXQzEVOj8DSzR3K11R4a5WjR_5OdAM/edit?usp=sharing" target="_blank">Resume</a>
+			</td>
+		    </tr>
+		  </tbody>
+		</table>
+		<h1>About Project</h1>
+		<p>The project is to build a system that will assist both current and incoming truck loaders at Siskin Steel. The software will allow loaders to manually place items for a stack job in a simulated 3D environment. It will also provide feedback on the weights at each axle on the truck to verify that their weiht limits have not been exceeded. Finally, the product will offer the ability to request a stack job. This will display the best stack job found by some search algorithm that will adhere to weight restrictions as well as load order.</p>
+	</div>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./NavBar.js"></script>
+<script>
+$(function(Helper) {
+        Helper.onReady();
+}(NavBarHelper));
+</script>
+</body>
+</html>
+
